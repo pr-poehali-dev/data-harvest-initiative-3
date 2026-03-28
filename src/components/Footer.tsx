@@ -6,10 +6,10 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <a href="/" className="inline-block mb-6">
-              <img src="/images/hously-logo.svg" alt="Пространство" width={120} height={32} className="w-auto h-6" />
+              <span className="text-foreground text-lg font-medium tracking-wide">СТУДИЯ<span className="text-orange-500 ml-1">РЕМОНТ</span></span>
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
-              Создаем пространства для жизни. Архитектурный опыт, где форма, свет и намерение встречаются.
+              Дизайн-студия и ремонт под ключ по всей России. Краснодар — наш дом, качество — наш стандарт.
             </p>
           </div>
 
@@ -45,13 +45,13 @@ export function Footer() {
             <h4 className="text-sm font-medium mb-4">Связь</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="mailto:hello@prostranstvo.ru" className="hover:text-foreground transition-colors">
-                  hello@prostranstvo.ru
+                <a href="mailto:info@design-studio.ru" className="hover:text-foreground transition-colors">
+                  info@design-studio.ru
                 </a>
               </li>
               <li>
-                <a href="tel:+74951234567" className="hover:text-foreground transition-colors">
-                  +7 (495) 123-45-67
+                <a href="tel:+78612345678" className="hover:text-foreground transition-colors">
+                  +7 (861) 234-56-78
                 </a>
               </li>
               <li>
@@ -70,7 +70,7 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row md:items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2025 Пространство. Все права защищены.</p>
+          <p>© 2025 Дизайн-студия. Все права защищены. Краснодар.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground transition-colors">
               Политика конфиденциальности
