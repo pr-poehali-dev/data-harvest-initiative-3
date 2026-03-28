@@ -6,7 +6,7 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <a href="/" className="inline-block mb-6">
-              <span className="text-foreground text-lg font-medium tracking-wide">СТУДИЯ<span className="text-orange-500 ml-1">РЕМОНТ</span></span>
+              <span className="text-foreground text-lg font-medium tracking-wide">ТЕСЛЕНКО<span className="text-orange-500 ml-1">НАТАЛЬЯ</span></span>
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
               Дизайн-студия и ремонт под ключ по всей России. Краснодар — наш дом, качество — наш стандарт.
@@ -45,18 +45,13 @@ export function Footer() {
             <h4 className="text-sm font-medium mb-4">Связь</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="mailto:info@design-studio.ru" className="hover:text-foreground transition-colors">
-                  info@design-studio.ru
+                <a href="tel:+79625880295" className="hover:text-foreground transition-colors">
+                  +7 (962) 588-02-95
                 </a>
               </li>
               <li>
-                <a href="tel:+78612345678" className="hover:text-foreground transition-colors">
-                  +7 (861) 234-56-78
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-foreground transition-colors">
-                  Телеграм
+                <a href="https://t.me/starthouses" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                  Telegram: @starthouses
                 </a>
               </li>
               <li>
@@ -70,7 +65,7 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row md:items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2025 Дизайн-студия. Все права защищены. Краснодар.</p>
+          <p>© 2025 Тесленко Наталья. Все права защищены. Краснодар.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground transition-colors">
               Политика конфиденциальности

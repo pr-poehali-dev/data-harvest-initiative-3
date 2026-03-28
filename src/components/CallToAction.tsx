@@ -1,38 +1,103 @@
+import { useState } from "react"
 import { ArrowRight } from "lucide-react"
 import { HighlightedText } from "./HighlightedText"
+import func2url from "../../backend/func2url.json"
 
 export function CallToAction() {
+  const [name, setName] = useState("")
+  const [phone, setPhone] = useState("")
+  const [message, setMessage] = useState("")
+  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle")
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    setStatus("loading")
+    try {
+      const res = await fetch(func2url["send-lead"], {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, phone, message }),
+      })
+      if (res.ok) {
+        setStatus("success")
+        setName("")
+        setPhone("")
+        setMessage("")
+      } else {
+        setStatus("error")
+      }
+    } catch {
+      setStatus("error")
+    }
+  }
+
   return (
     <section id="contact" className="py-32 md:py-29 bg-foreground text-primary-foreground">
       <div className="container mx-auto px-6 md:px-12">
-        <div className="max-w-4xl mx-auto text-center">
-          <p className="text-primary-foreground/60 text-sm tracking-[0.3em] uppercase mb-8">Начать проект</p>
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <p className="text-primary-foreground/60 text-sm tracking-[0.3em] uppercase mb-8">Начать проект</p>
 
-          <h2 className="text-3xl md:text-4xl lg:text-6xl font-medium leading-[1.1] tracking-tight mb-8 text-balance">
-            Готовы к ремонту
-            <br />
-            вашей <HighlightedText>мечты</HighlightedText>?
-          </h2>
+            <h2 className="text-3xl md:text-4xl lg:text-6xl font-medium leading-[1.1] tracking-tight mb-8 text-balance">
+              Готовы к ремонту
+              <br />
+              вашей <HighlightedText>мечты</HighlightedText>?
+            </h2>
 
-          <p className="text-primary-foreground/70 text-lg md:text-xl leading-relaxed mb-12 max-w-2xl mx-auto">
-            Оставьте заявку — мы свяжемся в течение часа, проконсультируем бесплатно и рассчитаем стоимость вашего проекта.
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="#"
-              className="inline-flex items-center justify-center gap-3 bg-primary-foreground text-foreground px-8 py-4 text-sm tracking-wide hover:bg-primary-foreground/90 transition-colors duration-300 group"
-            >
-              Получить бесплатный расчёт
-              <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-            </a>
-            <a
-              href="tel:+78612345678"
-              className="inline-flex items-center justify-center gap-2 border border-primary-foreground/30 px-8 py-4 text-sm tracking-wide hover:bg-primary-foreground/10 transition-colors duration-300"
-            >
-              +7 (861) 234-56-78
-            </a>
+            <p className="text-primary-foreground/70 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto">
+              Оставьте заявку — свяжусь в течение часа, проконсультирую бесплатно и рассчитаю стоимость вашего проекта.
+            </p>
           </div>
+
+          {status === "success" ? (
+            <div className="max-w-lg mx-auto text-center py-12 px-8 border border-primary-foreground/20">
+              <p className="text-2xl font-medium mb-3">Заявка отправлена!</p>
+              <p className="text-primary-foreground/70">Наталья свяжется с вами в течение часа.</p>
+            </div>
+          ) : (
+            <form onSubmit={handleSubmit} className="max-w-lg mx-auto flex flex-col gap-4">
+              <input
+                type="text"
+                placeholder="Ваше имя *"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                required
+                className="bg-transparent border border-primary-foreground/30 text-primary-foreground placeholder:text-primary-foreground/40 px-5 py-4 text-sm focus:outline-none focus:border-primary-foreground/70 transition-colors"
+              />
+              <input
+                type="tel"
+                placeholder="Телефон *"
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+                required
+                className="bg-transparent border border-primary-foreground/30 text-primary-foreground placeholder:text-primary-foreground/40 px-5 py-4 text-sm focus:outline-none focus:border-primary-foreground/70 transition-colors"
+              />
+              <textarea
+                placeholder="Расскажите о вашем проекте (необязательно)"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                rows={3}
+                className="bg-transparent border border-primary-foreground/30 text-primary-foreground placeholder:text-primary-foreground/40 px-5 py-4 text-sm focus:outline-none focus:border-primary-foreground/70 transition-colors resize-none"
+              />
+              <button
+                type="submit"
+                disabled={status === "loading"}
+                className="inline-flex items-center justify-center gap-3 bg-primary-foreground text-foreground px-8 py-4 text-sm tracking-wide hover:bg-primary-foreground/90 transition-colors duration-300 group disabled:opacity-60"
+              >
+                {status === "loading" ? "Отправляю..." : "Получить бесплатный расчёт"}
+                {status !== "loading" && <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />}
+              </button>
+              {status === "error" && (
+                <p className="text-red-400 text-sm text-center">Ошибка отправки. Позвоните напрямую: +7 (962) 588-02-95</p>
+              )}
+              <p className="text-primary-foreground/40 text-xs text-center">
+                Или напишите напрямую:{" "}
+                <a href="tel:+79625880295" className="hover:text-primary-foreground transition-colors">+7 (962) 588-02-95</a>
+                {" · "}
+                <a href="https://t.me/starthouses" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground transition-colors">@starthouses</a>
+              </p>
+            </form>
+          )}
         </div>
       </div>
     </section>

@@ -62,10 +62,14 @@ export function Philosophy() {
 
             <div className="relative hidden lg:block">
               <img
-                src="/images/exterior.png"
-                alt="Архитектурный эскиз рабочего пространства"
-                className="opacity-90 relative z-10 w-auto"
+                src="https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/d34d4480-41a5-46d2-baed-f23e0e833448.png"
+                alt="Тесленко Наталья — архитектор и дизайнер интерьеров"
+                className="relative z-10 w-full object-cover rounded-sm"
               />
+              <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-sm p-4 rounded-sm z-20">
+                <p className="text-foreground font-medium text-sm">Тесленко Наталья</p>
+                <p className="text-muted-foreground text-xs">Архитектор · Дизайнер интерьеров</p>
+              </div>
             </div>
           </div>
 

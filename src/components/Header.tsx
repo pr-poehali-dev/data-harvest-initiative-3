@@ -33,7 +33,7 @@ export function Header() {
     >
       <nav className="container mx-auto px-6 flex items-center justify-between md:px-[24]">
         <a href="/" className="flex items-center gap-2 group" onClick={scrollToTop}>
-          <span className="text-white text-lg font-medium tracking-wide">СТУДИЯ<span className="text-orange-300 ml-1">РЕМОНТ</span></span>
+          <span className="text-white text-lg font-medium tracking-wide">ТЕСЛЕНКО<span className="text-orange-300 ml-1">НАТАЛЬЯ</span></span>
         </a>
 
         <ul className="hidden md:flex items-center gap-10 text-sm tracking-wide">
