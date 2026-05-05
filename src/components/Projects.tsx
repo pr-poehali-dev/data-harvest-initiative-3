@@ -42,6 +42,46 @@ const projects = [
     year: "2025",
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/97279a20-0edd-4091-a565-ce7e7ccf1567.jpeg",
   },
+  {
+    id: 6,
+    title: "Гостиная с подвесным камином",
+    category: "Дизайн интерьера",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/5b4b4221-27e8-4cb6-98b5-02f199faa45a.jpeg",
+  },
+  {
+    id: 7,
+    title: "Кофейный столик",
+    category: "Дизайн и ремонт под ключ",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/05e4b545-0a4d-4b76-a535-cf0b667032ff.jpeg",
+  },
+  {
+    id: 8,
+    title: "Уютный кабинет",
+    category: "Дизайн интерьера",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/9f6e5e28-7c56-4080-9b58-c49fa61710d1.jpeg",
+  },
+  {
+    id: 9,
+    title: "Спальня — современный минимализм",
+    category: "Дизайн и ремонт под ключ",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/a5f8c444-8611-414e-be65-67a6b0025581.png",
+  },
+  {
+    id: 10,
+    title: "Спальня в тёплых тонах",
+    category: "Дизайн интерьера",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/19b1d9ea-2322-44b4-901a-649267920915.png",
+  },
 ]
 
 export function Projects() {
