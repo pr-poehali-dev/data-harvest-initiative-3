@@ -3,38 +3,6 @@ import { ArrowUpRight } from "lucide-react"
 
 const projects = [
   {
-    id: 1,
-    title: "Спальня в стиле минимализм",
-    category: "Дизайн и ремонт под ключ",
-    location: "Краснодар",
-    year: "2024",
-    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/3530fd46-005b-4870-a1ff-af5a5a61a15a.png",
-  },
-  {
-    id: 2,
-    title: "Современная гостиная",
-    category: "Дизайн интерьера",
-    location: "Москва",
-    year: "2024",
-    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/files/90c6b182-17e6-4fc7-b784-366f92fe7b07.jpg",
-  },
-  {
-    id: 3,
-    title: "Кухня-столовая",
-    category: "Ремонт под ключ",
-    location: "Сочи",
-    year: "2023",
-    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/files/d9daf551-0a94-4b6c-9f7b-b44fff1b012e.jpg",
-  },
-  {
-    id: 4,
-    title: "Ванная комната",
-    category: "Дизайн и ремонт",
-    location: "Краснодар",
-    year: "2024",
-    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/files/4ed52519-7dfa-425a-8ad3-894643aa9d6d.jpg",
-  },
-  {
     id: 5,
     title: "Ванная с мраморной плиткой",
     category: "Дизайн и ремонт под ключ",
