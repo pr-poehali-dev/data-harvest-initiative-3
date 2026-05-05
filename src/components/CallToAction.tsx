@@ -39,13 +39,13 @@ export function CallToAction() {
             <p className="text-primary-foreground/60 text-sm tracking-[0.3em] uppercase mb-8">Начать проект</p>
 
             <h2 className="text-3xl md:text-4xl lg:text-6xl font-medium leading-[1.1] tracking-tight mb-8 text-balance">
-              Готовы к ремонту
+              Начнём ваш
               <br />
-              вашей <HighlightedText>мечты</HighlightedText>?
+              <HighlightedText>дизайн-проект</HighlightedText>?
             </h2>
 
             <p className="text-primary-foreground/70 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto">
-              Оставьте заявку — свяжусь в течение часа, проконсультирую бесплатно и рассчитаю стоимость вашего проекта.
+              Оставьте заявку — свяжусь в течение часа, подберём подходящий пакет и рассчитаем стоимость бесплатно.
             </p>
           </div>
 
