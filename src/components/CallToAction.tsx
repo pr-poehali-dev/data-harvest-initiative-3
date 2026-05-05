@@ -94,7 +94,7 @@ export function CallToAction() {
                 Или напишите напрямую:{" "}
                 <a href="tel:+79625880295" className="hover:text-primary-foreground transition-colors">+7 (962) 588-02-95</a>
                 {" · "}
-                <a href="https://t.me/starthouses" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground transition-colors">@starthouses</a>
+                <a href="https://t.me/artspace_home" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground transition-colors">@artspace_home</a>
               </p>
             </form>
           )}
