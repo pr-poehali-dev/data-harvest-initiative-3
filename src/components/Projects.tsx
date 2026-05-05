@@ -34,6 +34,46 @@ const projects = [
     year: "2025",
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/4af09117-4efb-471f-a704-e4f5fa5353f0.jpeg",
   },
+  {
+    id: 13,
+    title: "Современная квартира",
+    category: "Дизайн-проект",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/6b9a4713-a71b-4afa-a7d2-522d86ad5314.png",
+  },
+  {
+    id: 14,
+    title: "Ванная с подсветкой",
+    category: "Дизайн-проект",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/71ff7bcc-f9c3-4f96-8bf8-fc691c122f56.jpeg",
+  },
+  {
+    id: 15,
+    title: "Гостиная в светлых тонах",
+    category: "Дизайн-проект",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/55a80e32-d581-4120-a3fa-b87972e9484a.jpeg",
+  },
+  {
+    id: 16,
+    title: "Ванная в розовых тонах",
+    category: "Дизайн-проект",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/516c1b4f-142b-4882-9a6f-2b6606f182e2.jpeg",
+  },
+  {
+    id: 17,
+    title: "Ванная с мраморной плиткой",
+    category: "Дизайн-проект",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/81fedad2-2c05-4bc4-8b69-608014991d55.jpeg",
+  },
 ]
 
 export function Projects() {
