@@ -34,6 +34,14 @@ const projects = [
     year: "2024",
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/files/4ed52519-7dfa-425a-8ad3-894643aa9d6d.jpg",
   },
+  {
+    id: 5,
+    title: "Ванная с мраморной плиткой",
+    category: "Дизайн и ремонт под ключ",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/97279a20-0edd-4091-a565-ce7e7ccf1567.jpeg",
+  },
 ]
 
 export function Projects() {
