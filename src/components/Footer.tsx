@@ -6,7 +6,7 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <a href="/" className="inline-block mb-6">
-              <span className="text-foreground text-lg font-medium tracking-wide">ТЕСЛЕНКО<span className="text-orange-500 ml-1">НАТАЛЬЯ</span></span>
+              <span className="text-foreground text-lg font-medium tracking-wide">ArtSpace<span className="text-orange-500 ml-2 text-sm font-normal tracking-widest uppercase">дизайн студия</span></span>
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
               Дизайн-студия и ремонт под ключ по всей России. Краснодар — наш дом, качество — наш стандарт.
@@ -65,7 +65,7 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row md:items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2025 Тесленко Наталья. Все права защищены. Краснодар.</p>
+          <p>© 2025 ArtSpace. Все права защищены. Краснодар.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground transition-colors">
               Политика конфиденциальности
