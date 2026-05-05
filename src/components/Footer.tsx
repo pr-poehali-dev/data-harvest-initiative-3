@@ -50,6 +50,11 @@ export function Footer() {
                 </a>
               </li>
               <li>
+                <a href="mailto:Tesla.house@yandex.ru" className="hover:text-foreground transition-colors">
+                  Tesla.house@yandex.ru
+                </a>
+              </li>
+              <li>
                 <a href="https://t.me/artspace_home" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
                   Telegram: @artspace_home
                 </a>

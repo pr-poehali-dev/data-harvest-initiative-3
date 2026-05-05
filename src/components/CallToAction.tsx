@@ -95,6 +95,8 @@ export function CallToAction() {
                 <a href="tel:+79625880295" className="hover:text-primary-foreground transition-colors">+7 (962) 588-02-95</a>
                 {" · "}
                 <a href="https://t.me/artspace_home" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground transition-colors">@artspace_home</a>
+                {" · "}
+                <a href="mailto:Tesla.house@yandex.ru" className="hover:text-primary-foreground transition-colors">Tesla.house@yandex.ru</a>
               </p>
             </form>
           )}
