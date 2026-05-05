@@ -19,14 +19,6 @@ const projects = [
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/9f6e5e28-7c56-4080-9b58-c49fa61710d1.jpeg",
   },
   {
-    id: 9,
-    title: "Спальня — современный минимализм",
-    category: "Дизайн и ремонт под ключ",
-    location: "Краснодар",
-    year: "2025",
-    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/a5f8c444-8611-414e-be65-67a6b0025581.png",
-  },
-  {
     id: 10,
     title: "Спальня в тёплых тонах",
     category: "Дизайн интерьера",
@@ -41,14 +33,6 @@ const projects = [
     location: "Краснодар",
     year: "2025",
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/4af09117-4efb-471f-a704-e4f5fa5353f0.jpeg",
-  },
-  {
-    id: 12,
-    title: "Планировочное решение",
-    category: "Дизайн-проект",
-    location: "Краснодар",
-    year: "2025",
-    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/a5446358-e5ef-48ee-b771-5ba225113d5e.png",
   },
 ]
 
