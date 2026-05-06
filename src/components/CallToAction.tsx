@@ -88,7 +88,7 @@ export function CallToAction() {
                 {status !== "loading" && <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />}
               </button>
               {status === "error" && (
-                <p className="text-red-400 text-sm text-center">Ошибка отправки. Позвоните напрямую: +7 (962) 588-02-95</p>
+                <p className="text-red-400 text-sm text-center">Ошибка отправки. Позвоните напрямую: +7 (961) 588-02-95</p>
               )}
               <a
                 href="https://t.me/artspace_home"
@@ -101,7 +101,7 @@ export function CallToAction() {
               </a>
               <p className="text-primary-foreground/40 text-xs text-center">
                 Или напрямую:{" "}
-                <a href="tel:+79625880295" className="hover:text-primary-foreground transition-colors">+7 (962) 588-02-95</a>
+                <a href="tel:+79615880295" className="hover:text-primary-foreground transition-colors">+7 (961) 588-02-95</a>
                 {" · "}
                 <a href="mailto:Tesla.house@yandex.ru" className="hover:text-primary-foreground transition-colors">Tesla.house@yandex.ru</a>
               </p>
