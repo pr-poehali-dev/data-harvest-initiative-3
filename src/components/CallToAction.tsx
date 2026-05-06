@@ -36,16 +36,16 @@ export function CallToAction() {
       <div className="container mx-auto px-6 md:px-12">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-primary-foreground/60 text-sm tracking-[0.3em] uppercase mb-8">Начать проект</p>
+            <p className="text-primary-foreground/60 text-sm tracking-[0.3em] uppercase mb-8">Начать диалог</p>
 
             <h2 className="text-3xl md:text-4xl lg:text-6xl font-medium leading-[1.1] tracking-tight mb-8 text-balance">
-              Начнём ваш
+              Давайте создадим
               <br />
-              <HighlightedText>дизайн-проект</HighlightedText>?
+              <HighlightedText>ваше пространство</HighlightedText>
             </h2>
 
             <p className="text-primary-foreground/70 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto">
-              Оставьте заявку — свяжусь в течение часа, подберём подходящий пакет и рассчитаем стоимость бесплатно.
+              Напишите мне — и уже через час мы начнём разговор о вашем будущем интерьере. Бесплатно, без обязательств.
             </p>
           </div>
 
