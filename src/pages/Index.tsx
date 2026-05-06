@@ -4,6 +4,7 @@ import { Philosophy } from "../components/Philosophy"
 import { Projects } from "../components/Projects"
 import { Expertise } from "../components/Expertise"
 import { FAQ } from "../components/FAQ"
+import { WhyMe } from "../components/WhyMe"
 import { CallToAction } from "../components/CallToAction"
 import { Footer } from "../components/Footer"
 
@@ -13,6 +14,7 @@ export default function Index() {
       <Header />
       <Hero />
       <Philosophy />
+      <WhyMe />
       <Projects />
       <Expertise />
       <FAQ />
