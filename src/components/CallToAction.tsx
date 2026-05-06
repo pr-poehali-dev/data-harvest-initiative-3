@@ -84,7 +84,7 @@ export function CallToAction() {
                 disabled={status === "loading"}
                 className="inline-flex items-center justify-center gap-3 bg-primary-foreground text-foreground px-8 py-4 text-sm tracking-wide hover:bg-primary-foreground/90 transition-colors duration-300 group disabled:opacity-60"
               >
-                {status === "loading" ? "Отправляю..." : "Получить бесплатный расчёт"}
+                {status === "loading" ? "Отправляю..." : "Начать диалог и получить консультацию"}
                 {status !== "loading" && <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />}
               </button>
               {status === "error" && (
