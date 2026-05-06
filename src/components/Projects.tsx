@@ -145,12 +145,7 @@ export function Projects() {
                 />
               </div>
 
-              <div>
-                <h3 className="text-xl font-medium mb-2 group-hover:underline underline-offset-4">{project.title}</h3>
-                <p className="text-muted-foreground text-sm">
-                  {project.category} · {project.location}
-                </p>
-              </div>
+
             </article>
           ))}
         </div>
