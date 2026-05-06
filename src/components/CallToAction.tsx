@@ -90,11 +90,18 @@ export function CallToAction() {
               {status === "error" && (
                 <p className="text-red-400 text-sm text-center">Ошибка отправки. Позвоните напрямую: +7 (962) 588-02-95</p>
               )}
+              <a
+                href="https://t.me/artspace_home"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-3 border border-primary-foreground/30 text-primary-foreground px-8 py-4 text-sm tracking-wide hover:border-primary-foreground/70 hover:bg-primary-foreground/10 transition-colors duration-300"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L8.32 13.617l-2.96-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.828.942z"/></svg>
+                Написать в Telegram
+              </a>
               <p className="text-primary-foreground/40 text-xs text-center">
-                Или напишите напрямую:{" "}
+                Или напрямую:{" "}
                 <a href="tel:+79625880295" className="hover:text-primary-foreground transition-colors">+7 (962) 588-02-95</a>
-                {" · "}
-                <a href="https://t.me/artspace_home" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground transition-colors">@artspace_home</a>
                 {" · "}
                 <a href="mailto:Tesla.house@yandex.ru" className="hover:text-primary-foreground transition-colors">Tesla.house@yandex.ru</a>
               </p>
