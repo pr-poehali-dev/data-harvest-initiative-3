@@ -63,7 +63,7 @@ export function Philosophy() {
 
             <div className="relative hidden lg:block">
               <img
-                src="https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/d34d4480-41a5-46d2-baed-f23e0e833448.png"
+                src="https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/2fa7b353-73e7-44df-9da2-14e214c19d70.jpeg"
                 alt="Тесленко Наталья — архитектор и дизайнер интерьеров"
                 className="relative z-10 w-full object-cover rounded-sm"
               />
