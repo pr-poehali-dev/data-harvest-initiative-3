@@ -74,6 +74,46 @@ const projects = [
     year: "2025",
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/81fedad2-2c05-4bc4-8b69-608014991d55.jpeg",
   },
+  {
+    id: 18,
+    title: "Кухня с мраморным островом",
+    category: "Дизайн-проект",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/6d3c2bbe-4788-42fe-8507-7b0789476e7f.jpeg",
+  },
+  {
+    id: 19,
+    title: "Ванная в тёмном мраморе",
+    category: "Дизайн-проект",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/5d9fab8f-cb63-4dd3-89c5-fecd151ce11d.jpeg",
+  },
+  {
+    id: 20,
+    title: "Спальня с туалетным столиком",
+    category: "Дизайн-проект",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/22b4aeb9-71e5-4a6e-9028-74ccd47a4c6f.jpeg",
+  },
+  {
+    id: 21,
+    title: "Спальня в классическом стиле",
+    category: "Дизайн-проект",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/ff4d6dd7-bff4-4244-814d-c1d84c904ea6.jpeg",
+  },
+  {
+    id: 22,
+    title: "Гардеробная с мраморной столешницей",
+    category: "Дизайн-проект",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/4560090d-b943-4378-86bf-cc0c7bb354f6.jpeg",
+  },
 ]
 
 export function Projects() {
