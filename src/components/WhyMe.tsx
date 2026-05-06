@@ -46,6 +46,7 @@ export function WhyMe() {
               <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-sm p-4 rounded-sm">
                 <p className="text-foreground font-medium text-sm">Тесленко Наталья</p>
                 <p className="text-muted-foreground text-xs">Архитектор · Дизайнер интерьеров</p>
+                <p className="text-orange-500 text-xs font-medium mt-1">Мастер перепланировок, которые точно узаконят</p>
               </div>
             </div>
           </div>
