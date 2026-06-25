@@ -170,6 +170,46 @@ const projects = [
     year: "2025",
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/be2f55d9-086f-48d7-beb7-14020c8f16b0.jpeg",
   },
+  {
+    id: 33,
+    title: "Спальня с деревянной стеной",
+    category: "Дизайн-проект",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/d330ccf9-8122-48a2-91e5-e624c3a47d13.jpeg",
+  },
+  {
+    id: 34,
+    title: "3D-планировка квартиры",
+    category: "Дизайн-проект",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/7cd268d1-347a-4d19-afb6-d9d129e92189.png",
+  },
+  {
+    id: 35,
+    title: "Ванная с подсветкой и ванной",
+    category: "Дизайн и ремонт под ключ",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/7121cd7d-fc15-4515-8ac8-79cca3bac1c6.jpeg",
+  },
+  {
+    id: 36,
+    title: "Мраморная ниша с подсветкой",
+    category: "Дизайн и ремонт под ключ",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/ac5ca711-3414-4a6c-9010-df68565ac56f.jpeg",
+  },
+  {
+    id: 37,
+    title: "Коридор с мраморной отделкой",
+    category: "Дизайн и ремонт под ключ",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/295b9626-3b28-4626-a955-76c6d06f299c.jpeg",
+  },
 ]
 
 export function Projects() {
