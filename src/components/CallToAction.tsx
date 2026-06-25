@@ -80,7 +80,7 @@ export function CallToAction() {
                 className="bg-transparent border border-primary-foreground/30 text-primary-foreground placeholder:text-primary-foreground/40 px-5 py-4 text-sm focus:outline-none focus:border-primary-foreground/70 transition-colors resize-none"
               />
               <a
-                href="tel:+78928665720"
+                href="tel:+79286657200"
                 className="inline-flex items-center justify-center gap-3 bg-primary-foreground text-foreground px-8 py-4 text-sm tracking-wide hover:bg-primary-foreground/90 transition-colors duration-300 group"
               >
                 <Phone className="w-4 h-4" />
@@ -100,7 +100,7 @@ export function CallToAction() {
               </a>
               <p className="text-primary-foreground/40 text-xs text-center">
                 Или напрямую:{" "}
-                <a href="tel:+78928665720" className="hover:text-primary-foreground transition-colors">8 (928) 665-72-00</a>
+                <a href="tel:+79286657200" className="hover:text-primary-foreground transition-colors">8 (928) 665-72-00</a>
                 {" · "}
                 <a href="mailto:Tesla.house@yandex.ru" className="hover:text-primary-foreground transition-colors">Tesla.house@yandex.ru</a>
               </p>
