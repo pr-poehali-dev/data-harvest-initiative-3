@@ -130,6 +130,46 @@ const projects = [
     year: "2025",
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/1c8446bf-94ca-4e43-b4b7-06c5c5ced77a.jpeg",
   },
+  {
+    id: 28,
+    title: "Гостиная с кухней-столовой",
+    category: "Дизайн-проект",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/6938f57d-f732-4b97-8f11-6b8fd73ad1cc.jpeg",
+  },
+  {
+    id: 29,
+    title: "Спальня с мраморной стеной",
+    category: "Дизайн-проект",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/7a5230fa-0fd6-4c51-b529-abb0a03d6bbf.jpeg",
+  },
+  {
+    id: 30,
+    title: "Гостиная-столовая в классическом стиле",
+    category: "Дизайн-проект",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/ccee0aa5-d972-4d4b-a61d-b416a1320caf.jpeg",
+  },
+  {
+    id: 31,
+    title: "Ванная с мраморной раковиной",
+    category: "Дизайн и ремонт под ключ",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/79850ad2-e12f-4de0-a7dc-aa2837f9a0e2.jpeg",
+  },
+  {
+    id: 32,
+    title: "Ванная с мраморной плиткой и ванной",
+    category: "Дизайн-проект",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/be2f55d9-086f-48d7-beb7-14020c8f16b0.jpeg",
+  },
 ]
 
 export function Projects() {
