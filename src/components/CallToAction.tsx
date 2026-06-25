@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { ArrowRight } from "lucide-react"
+import { ArrowRight, Phone } from "lucide-react"
 import { HighlightedText } from "./HighlightedText"
 import func2url from "../../backend/func2url.json"
 
@@ -79,14 +79,13 @@ export function CallToAction() {
                 rows={3}
                 className="bg-transparent border border-primary-foreground/30 text-primary-foreground placeholder:text-primary-foreground/40 px-5 py-4 text-sm focus:outline-none focus:border-primary-foreground/70 transition-colors resize-none"
               />
-              <button
-                type="submit"
-                disabled={status === "loading"}
-                className="inline-flex items-center justify-center gap-3 bg-primary-foreground text-foreground px-8 py-4 text-sm tracking-wide hover:bg-primary-foreground/90 transition-colors duration-300 group disabled:opacity-60"
+              <a
+                href="tel:+78928665720"
+                className="inline-flex items-center justify-center gap-3 bg-primary-foreground text-foreground px-8 py-4 text-sm tracking-wide hover:bg-primary-foreground/90 transition-colors duration-300 group"
               >
-                {status === "loading" ? "Отправляю..." : "Начать диалог и получить консультацию"}
-                {status !== "loading" && <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />}
-              </button>
+                <Phone className="w-4 h-4" />
+                Позвонить
+              </a>
               {status === "error" && (
                 <p className="text-red-400 text-sm text-center">Ошибка отправки. Позвоните напрямую: 8 (928) 665-72-00</p>
               )}
