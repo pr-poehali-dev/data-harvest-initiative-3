@@ -22,7 +22,7 @@ export function CallToAction() {
 
           <div className="max-w-lg mx-auto flex flex-col gap-4">
             <a
-              href="tel:+79286657200"
+              href="tel:+79615880295"
               className="inline-flex items-center justify-center gap-3 bg-primary-foreground text-foreground px-8 py-4 text-sm tracking-wide hover:bg-primary-foreground/90 transition-colors duration-300"
             >
               <Phone className="w-4 h-4" />
@@ -38,7 +38,7 @@ export function CallToAction() {
               Написать в Telegram
             </a>
             <p className="text-primary-foreground/40 text-xs text-center">
-              <a href="tel:+79286657200" className="hover:text-primary-foreground transition-colors">8 (928) 665-72-00</a>
+              <a href="tel:+79615880295" className="hover:text-primary-foreground transition-colors">8 (961) 588-02-95</a>
               {" · "}
               <a href="mailto:Tesla.house@yandex.ru" className="hover:text-primary-foreground transition-colors">Tesla.house@yandex.ru</a>
             </p>
