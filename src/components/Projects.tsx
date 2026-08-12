@@ -210,6 +210,46 @@ const projects = [
     year: "2025",
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/295b9626-3b28-4626-a955-76c6d06f299c.jpeg",
   },
+  {
+    id: 38,
+    title: "Гостиная-кухня с реечными панелями",
+    category: "Дизайн и ремонт под ключ",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/2384953a-5a8d-475d-8d6a-f5f97615c175.jpeg",
+  },
+  {
+    id: 39,
+    title: "Столовая зона с кованой люстрой",
+    category: "Дизайн-проект",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/e9ab6995-e3af-42f8-bbf8-6127fc0a5a24.jpeg",
+  },
+  {
+    id: 40,
+    title: "Гостиная с круглыми люстрами",
+    category: "Дизайн интерьера",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/add44d4c-1da0-4648-8b54-77a665ac0fdc.jpeg",
+  },
+  {
+    id: 41,
+    title: "Ванная в бордовых тонах",
+    category: "Дизайн и ремонт под ключ",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/695bc25d-9f59-479a-bb24-eef6f8f580df.jpeg",
+  },
+  {
+    id: 42,
+    title: "Кабинет с видом на город",
+    category: "Дизайн интерьера",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/096c9273-a7e9-4647-b777-d45c7a2d7a2d.jpeg",
+  },
 ]
 
 export function Projects() {
