@@ -227,14 +227,6 @@ const projects = [
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/d73e8d09-744d-4e7b-97a1-03640abbc7bb.jpeg",
   },
   {
-    id: 47,
-    title: "Ванная с золотой люстрой",
-    category: "Дизайн-проект",
-    location: "Краснодар",
-    year: "2025",
-    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/764dba8f-9938-4448-b8c2-5fa3e1d827eb.jpeg",
-  },
-  {
     id: 48,
     title: "Столовая зона с мраморным столом",
     category: "Дизайн интерьера",
