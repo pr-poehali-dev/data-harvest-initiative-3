@@ -3,22 +3,6 @@ import { ArrowUpRight } from "lucide-react"
 
 const projects = [
   {
-    id: 5,
-    title: "Ванная с мраморной плиткой",
-    category: "Дизайн и ремонт под ключ",
-    location: "Краснодар",
-    year: "2025",
-    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/97279a20-0edd-4091-a565-ce7e7ccf1567.jpeg",
-  },
-  {
-    id: 10,
-    title: "Спальня в тёплых тонах",
-    category: "Дизайн интерьера",
-    location: "Краснодар",
-    year: "2025",
-    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/19b1d9ea-2322-44b4-901a-649267920915.png",
-  },
-  {
     id: 13,
     title: "Современная квартира",
     category: "Дизайн-проект",
@@ -217,6 +201,38 @@ const projects = [
     location: "Краснодар",
     year: "2025",
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/096c9273-a7e9-4647-b777-d45c7a2d7a2d.jpeg",
+  },
+  {
+    id: 43,
+    title: "Квартира-студия в тёплых тонах",
+    category: "Дизайн и ремонт под ключ",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/30c09eab-4b39-489b-b913-353fcaecb418.jpeg",
+  },
+  {
+    id: 44,
+    title: "Кухня с бронзовым фартуком",
+    category: "Дизайн-проект",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/77e61aa2-bd41-43a3-9264-83e36e672c04.jpeg",
+  },
+  {
+    id: 45,
+    title: "Ванная в бордовой плитке",
+    category: "Дизайн и ремонт под ключ",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/e20dad56-9081-4ea9-976b-223fe45f8a71.webp",
+  },
+  {
+    id: 46,
+    title: "Ванная с тёплой подсветкой",
+    category: "Дизайн-проект",
+    location: "Краснодар",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/d73e8d09-744d-4e7b-97a1-03640abbc7bb.jpeg",
   },
 ]
 
