@@ -163,14 +163,6 @@ const projects = [
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/2384953a-5a8d-475d-8d6a-f5f97615c175.jpeg",
   },
   {
-    id: 39,
-    title: "Столовая зона с кованой люстрой",
-    category: "Дизайн-проект",
-    location: "Краснодар",
-    year: "2025",
-    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/e9ab6995-e3af-42f8-bbf8-6127fc0a5a24.jpeg",
-  },
-  {
     id: 40,
     title: "Гостиная с круглыми люстрами",
     category: "Дизайн интерьера",
