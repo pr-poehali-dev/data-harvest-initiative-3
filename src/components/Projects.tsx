@@ -11,28 +11,12 @@ const projects = [
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/97279a20-0edd-4091-a565-ce7e7ccf1567.jpeg",
   },
   {
-    id: 8,
-    title: "Уютный кабинет",
-    category: "Дизайн интерьера",
-    location: "Краснодар",
-    year: "2025",
-    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/9f6e5e28-7c56-4080-9b58-c49fa61710d1.jpeg",
-  },
-  {
     id: 10,
     title: "Спальня в тёплых тонах",
     category: "Дизайн интерьера",
     location: "Краснодар",
     year: "2025",
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/19b1d9ea-2322-44b4-901a-649267920915.png",
-  },
-  {
-    id: 11,
-    title: "Планировочное решение",
-    category: "Дизайн-проект",
-    location: "Краснодар",
-    year: "2025",
-    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/4af09117-4efb-471f-a704-e4f5fa5353f0.jpeg",
   },
   {
     id: 13,
@@ -91,14 +75,6 @@ const projects = [
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/4560090d-b943-4378-86bf-cc0c7bb354f6.jpeg",
   },
   {
-    id: 23,
-    title: "Гостиная с биокамином",
-    category: "Дизайн-проект",
-    location: "Краснодар",
-    year: "2025",
-    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/16ffa8c9-656e-4462-8f20-b734240ddfbc.jpeg",
-  },
-  {
     id: 24,
     title: "Ванная с чёрной сантехникой",
     category: "Дизайн и ремонт под ключ",
@@ -153,14 +129,6 @@ const projects = [
     location: "Краснодар",
     year: "2025",
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/ccee0aa5-d972-4d4b-a61d-b416a1320caf.jpeg",
-  },
-  {
-    id: 31,
-    title: "Ванная с мраморной раковиной",
-    category: "Дизайн и ремонт под ключ",
-    location: "Краснодар",
-    year: "2025",
-    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/79850ad2-e12f-4de0-a7dc-aa2837f9a0e2.jpeg",
   },
   {
     id: 32,
