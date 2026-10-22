@@ -91,14 +91,6 @@ const projects = [
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/ccee0aa5-d972-4d4b-a61d-b416a1320caf.jpeg",
   },
   {
-    id: 32,
-    title: "Ванная с мраморной плиткой и ванной",
-    category: "Дизайн-проект",
-    location: "Краснодар",
-    year: "2025",
-    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/be2f55d9-086f-48d7-beb7-14020c8f16b0.jpeg",
-  },
-  {
     id: 34,
     title: "3D-планировка квартиры",
     category: "Дизайн-проект",
