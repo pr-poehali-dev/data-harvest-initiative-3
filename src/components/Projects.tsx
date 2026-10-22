@@ -194,14 +194,6 @@ const projects = [
     year: "2025",
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/d73e8d09-744d-4e7b-97a1-03640abbc7bb.jpeg",
   },
-  {
-    id: 48,
-    title: "Столовая зона с мраморным столом",
-    category: "Дизайн интерьера",
-    location: "Краснодар",
-    year: "2025",
-    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/6c855142-67b9-4a6e-bbc8-f856cdd75344.jpeg",
-  },
 ]
 
 export function Projects() {
