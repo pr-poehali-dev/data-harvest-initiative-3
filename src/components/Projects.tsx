@@ -51,14 +51,6 @@ const projects = [
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/ff4d6dd7-bff4-4244-814d-c1d84c904ea6.jpeg",
   },
   {
-    id: 24,
-    title: "Ванная с чёрной сантехникой",
-    category: "Дизайн и ремонт под ключ",
-    location: "Краснодар",
-    year: "2025",
-    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/412dbf1c-4e54-4f24-8889-af3db24161b9.jpeg",
-  },
-  {
     id: 26,
     title: "Гостиная-столовая в натуральных тонах",
     category: "Дизайн-проект",
@@ -113,14 +105,6 @@ const projects = [
     location: "Краснодар",
     year: "2025",
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/7cd268d1-347a-4d19-afb6-d9d129e92189.png",
-  },
-  {
-    id: 35,
-    title: "Ванная с подсветкой и ванной",
-    category: "Дизайн и ремонт под ключ",
-    location: "Краснодар",
-    year: "2025",
-    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/7121cd7d-fc15-4515-8ac8-79cca3bac1c6.jpeg",
   },
   {
     id: 36,
