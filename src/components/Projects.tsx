@@ -59,14 +59,6 @@ const projects = [
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/412dbf1c-4e54-4f24-8889-af3db24161b9.jpeg",
   },
   {
-    id: 25,
-    title: "Спальня со встроенной гардеробной",
-    category: "Дизайн-проект",
-    location: "Краснодар",
-    year: "2025",
-    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/d5c28441-42ca-48a9-b3cb-ae0a85b3c57c.jpeg",
-  },
-  {
     id: 26,
     title: "Гостиная-столовая в натуральных тонах",
     category: "Дизайн-проект",
@@ -115,14 +107,6 @@ const projects = [
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/be2f55d9-086f-48d7-beb7-14020c8f16b0.jpeg",
   },
   {
-    id: 33,
-    title: "Спальня с деревянной стеной",
-    category: "Дизайн-проект",
-    location: "Краснодар",
-    year: "2025",
-    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/d330ccf9-8122-48a2-91e5-e624c3a47d13.jpeg",
-  },
-  {
     id: 34,
     title: "3D-планировка квартиры",
     category: "Дизайн-проект",
@@ -169,14 +153,6 @@ const projects = [
     location: "Краснодар",
     year: "2025",
     image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/add44d4c-1da0-4648-8b54-77a665ac0fdc.jpeg",
-  },
-  {
-    id: 41,
-    title: "Ванная в бордовых тонах",
-    category: "Дизайн и ремонт под ключ",
-    location: "Краснодар",
-    year: "2025",
-    image: "https://cdn.poehali.dev/projects/8c42a195-c8ce-431c-8216-8939f3c074ef/bucket/695bc25d-9f59-479a-bb24-eef6f8f580df.jpeg",
   },
   {
     id: 42,
